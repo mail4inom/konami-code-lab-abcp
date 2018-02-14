@@ -17,7 +17,7 @@ if (window.addEventListener) {
         // and check to see if the user has entered the Konami code
         if (keys.toString().indexOf(konami) >= 0) {
             // do something such as:
-            // alert('Konami');
+             alert('Konami');
 
             // and finally clean up the keys array
             keys = [];
